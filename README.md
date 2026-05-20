@@ -1,245 +1,238 @@
-╔════════════════════════════════════════════════════════════════════╗
-║                                                                    ║
-║                🚆 TRAIN RESERVATION SYSTEM 🚆                     ║
-║                      (C++ OOP PROJECT)                             ║
-║                                                                    ║
-╚════════════════════════════════════════════════════════════════════╝
+# 🚆 TRAIN RESERVATION SYSTEM 🚆
+### (C++ OOP PROJECT)
 
+## 📌 PROJECT OVERVIEW
 
-📌 PROJECT OVERVIEW
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-The Train Reservation System is a console-based application
-developed using C++, Object-Oriented Programming (OOP),
-and File Handling concepts.
+The Train Reservation System is a console-based application developed using **C++**, **Object-Oriented Programming (OOP)**, and **File Handling** concepts.
 
 This system allows users to:
 
-   ✅ View Available Trains
-   ✅ Reserve Train Tickets
-   ✅ Search Train Details
-   ✅ Check Seat Availability
-   ✅ Cancel Reservations
-   ✅ Store Reservation Data Using Files
+✅ View Available Trains  
+✅ Reserve Train Tickets  
+✅ Search Train Details  
+✅ Check Seat Availability  
+✅ Cancel Reservations  
+✅ Store Reservation Data Using Files  
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✨ FEATURES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ✨ FEATURES
 
-🔐 Login Authentication
-   • Username and Password Verification
+🔐 Login Authentication  
+• Username and Password Verification  
 
-🚉 View Available Trains
-   • Train Number
-   • Train Name
-   • Destination
-   • Charges
-   • Available Seats
-   • Departure Time
+🚉 View Available Trains  
+• Train Number  
+• Train Name  
+• Destination  
+• Charges  
+• Available Seats  
+• Departure Time  
 
-🎫 Ticket Reservation
-   • Passenger Details Entry
-   • Seat Booking
-   • Fare Calculation
-   • Ticket Generation
+🎫 Ticket Reservation  
+• Passenger Details Entry  
+• Seat Booking  
+• Fare Calculation  
+• Ticket Generation  
 
-🔎 Train Search
-   • Search Train by Train Number
+🔎 Train Search  
+• Search Train by Train Number  
 
-❌ Cancel Reservation
-   • Reservation Cancellation Option
+❌ Cancel Reservation  
+• Reservation Cancellation Option  
 
-💾 File Handling
-   • Reservation details stored in:
-     reservations.txt
+💾 File Handling  
+• Reservation details stored in: `reservations.txt`
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🧠 OOP CONCEPTS USED
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🧠 OOP CONCEPTS USED
 
-✔ Classes
-✔ Objects
-✔ Constructors
-✔ Encapsulation
-✔ Abstraction
+✔ Classes  
+✔ Objects  
+✔ Constructors  
+✔ Encapsulation  
+✔ Abstraction  
 
-Classes Implemented:
-   • Passenger
-   • Train
-   • TrainReservationSystem
+### 🏗️ Classes Implemented
 
+👤 Passenger  
+🚆 Train  
+🖥️ TrainReservationSystem  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🏗️ CLASS DESCRIPTION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+---
 
-👤 Passenger Class
-   Stores:
-   • Passenger Name
-   • Train Number
-   • Seats Booked
-   • Charges
+## 🏗️ CLASS DESCRIPTION
 
-🚆 Train Class
-   Stores:
-   • Train Number
-   • Train Name
-   • Destination
-   • Ticket Price
-   • Departure Time
-   • Available Seats
+### 👤 Passenger Class
 
-🖥️ TrainReservationSystem Class
-   Handles:
-   • Login System
-   • Ticket Reservation
-   • Train Search
-   • Reservation Storage
-   • Menu Management
+Stores:
+- Passenger Name
+- Train Number
+- Seats Booked
+- Charges
 
+### 🚆 Train Class
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📋 FUNCTIONALITIES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Stores:
+- Train Number
+- Train Name
+- Destination
+- Ticket Price
+- Departure Time
+- Available Seats
 
-1️⃣ Login System
+### 🖥️ TrainReservationSystem Class
 
-   Default Credentials:
+Handles:
+- Login System
+- Ticket Reservation
+- Train Search
+- Reservation Storage
+- Menu Management
 
-      Username : user
-      Password : pass
+---
 
+## 📋 FUNCTIONALITIES
 
-2️⃣ View Available Trains
+### 1️⃣ Login System
 
-   Displays all train details in tabular format.
+Default Credentials:
 
+```txt
+Username : user
+Password : pass
+```
 
-3️⃣ Reserve Ticket
+### 2️⃣ View Available Trains
 
-   ✔ Passenger Name Input
-   ✔ Seat Booking
-   ✔ Fare Calculation
-   ✔ Ticket Printing
-   ✔ Reservation Saving
+Displays all train details in tabular format.
 
+### 3️⃣ Reserve Ticket
 
-4️⃣ Search Train
+✔ Passenger Name Input  
+✔ Seat Booking  
+✔ Fare Calculation  
+✔ Ticket Printing  
+✔ Reservation Saving  
 
-   ✔ Search train details using Train Number
+### 4️⃣ Search Train
 
+✔ Search train details using Train Number  
 
-5️⃣ Cancel Reservation
+### 5️⃣ Cancel Reservation
 
-   ✔ Allows reservation cancellation
+✔ Allows reservation cancellation  
 
+### 6️⃣ Seat Availability
 
-6️⃣ Seat Availability
+✔ Checks available seats before booking  
 
-   ✔ Checks available seats before booking
+---
 
+## 🖼️ SAMPLE MENU
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🖼️ SAMPLE MENU
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+```txt
 ================ TRAIN RESERVATION SYSTEM ================
 
-   1. Reserve Ticket
-   2. View Available Trains
-   3. Cancel Reservation
-   4. Search Train
-   5. Total Trains
-   6. Exit
+1. Reserve Ticket
+2. View Available Trains
+3. Cancel Reservation
+4. Search Train
+5. Total Trains
+6. Exit
+```
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-⚙️ TECHNOLOGIES USED
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ⚙️ TECHNOLOGIES USED
 
-💻 C++
-💻 Object-Oriented Programming (OOP)
-💻 STL Vector
-💻 File Handling
-💻 Console Application
+💻 C++  
+💻 Object-Oriented Programming (OOP)  
+💻 STL Vector  
+💻 File Handling  
+💻 Console Application  
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-▶️ HOW TO RUN
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## ▶️ HOW TO RUN
 
-🔧 Compile:
+### 🔧 Compile
 
-   g++ Railway_Ticket_Reservation.cpp -o railway
+```bash
+g++ Railway_Ticket_Reservation.cpp -o railway
+```
 
+### ▶️ Run
 
-▶️ Run:
+#### Windows
+```bash
+railway.exe
+```
 
-   Windows:
-      railway.exe
+#### Linux / Mac
+```bash
+./railway
+```
 
-   Linux / Mac:
-      ./railway
+---
 
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📂 OUTPUT FILE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 📂 OUTPUT FILE
 
 Reservation details are stored in:
 
-   reservations.txt
+```txt
+reservations.txt
+```
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🚀 FUTURE ENHANCEMENTS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🚀 FUTURE ENHANCEMENTS
 
-✅ User Registration System
-✅ Admin Dashboard
-✅ PNR Generation
-✅ Online Payment Integration
-✅ Database Connectivity
-✅ Password Encryption
-✅ GUI-Based Application
-✅ Real-Time Seat Tracking
-✅ Dynamic Train Scheduling
+✅ User Registration System  
+✅ Admin Dashboard  
+✅ PNR Generation  
+✅ Online Payment Integration  
+✅ Database Connectivity  
+✅ Password Encryption  
+✅ GUI-Based Application  
+✅ Real-Time Seat Tracking  
+✅ Dynamic Train Scheduling  
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-🌟 ADVANTAGES OF THE PROJECT
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🌟 ADVANTAGES OF THE PROJECT
 
-✔ Beginner-Friendly
-✔ Easy to Understand
-✔ Real-World Application Logic
-✔ Demonstrates OOP Concepts
-✔ Uses File Handling
-✔ ATS-Friendly Academic Project
+✔ Beginner-Friendly  
+✔ Easy to Understand  
+✔ Real-World Application Logic  
+✔ Demonstrates OOP Concepts  
+✔ Uses File Handling  
+✔ ATS-Friendly Academic Project  
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📚 LEARNING OUTCOMES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 📚 LEARNING OUTCOMES
 
-✔ Object-Oriented Programming
-✔ File Handling
-✔ Class & Object Design
-✔ Menu-Driven Programming
-✔ STL Vector Usage
+✔ Object-Oriented Programming  
+✔ File Handling  
+✔ Class & Object Design  
+✔ Menu-Driven Programming  
+✔ STL Vector Usage  
 
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📌 CONCLUSION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 📌 CONCLUSION
 
-The Train Reservation System is an efficient
-console-based application developed using
-C++ and Object-Oriented Programming concepts.
+The Train Reservation System is an efficient console-based application developed using **C++** and **Object-Oriented Programming concepts**.
 
-It provides a simple and organized way to manage
-train ticket reservations while demonstrating
-core programming fundamentals and software
-design concepts.                           
+It provides a simple and organized way to manage train ticket reservations while demonstrating core programming fundamentals and software design concepts.
+
+---
+
+# 👨‍💻 DEVELOPED BY
+
+### Harshith Nellore  
+🎓 B.Tech – Computer Science Engineering  
+
+🚆 Happy Coding!
