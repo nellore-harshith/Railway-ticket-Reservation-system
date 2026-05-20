@@ -230,9 +230,4 @@ It provides a simple and organized way to manage train ticket reservations while
 
 ---
 
-# 👨‍💻 DEVELOPED BY
-
-### Harshith Nellore  
-🎓 B.Tech – Computer Science Engineering  
-
 🚆 Happy Coding!
